@@ -1,0 +1,344 @@
+body{
+    overflow-x: hidden;
+}
+/* navbar */
+.navbarbawah {
+    width: 100%;
+    height: 70px;
+}
+.navket{
+    margin-top: 30px;
+    font-size: 20px;
+}
+.nav-category{
+    margin-right: 80px;
+}
+.nav-x{
+    margin-left: -150px;
+}
+.nav-home{
+    margin-right: 70px;
+}
+.navbar-brand
+{
+    font-family:Viga;
+    font-size:32px;
+    
+}
+.navbar{
+    background-color: rgb(33, 136, 56);
+    
+    
+    
+}
+
+/* Akhir Navbar */
+
+/* JumboTron */
+.jumbotron{
+    
+    background-size:cover;
+    height:540px;
+    text-align:center;
+
+}
+
+.jumbotron .display-4{
+    color:white;
+    
+    margin-top:150px;
+    font-weight:200;
+    text-shadown :1px 1px 1px rgba(0,0,0, .6);
+    font-size:40px;
+    margin-bottom :30px;
+    
+
+}
+.jumbotron .display-4 span{
+    font-weight:500;
+}
+/* Akhir JumboTron */
+
+/* Info Panel */
+.info-panel{
+    box-shadow : 0 3px 20px rgba(0,0,0, 0.5);
+    border-radius:12px;
+    background-color:  white;
+    margin-top:-100px;
+    
+    padding :30px;
+}
+.info-panel img{
+    width:80px;
+    height:80px;
+    margin-right :20px;
+    margin-bottom:20px;
+}
+.info-panel h4{
+    font-size:16px;
+    text-transform:uppercase;
+    font-weight:bold;
+    margin-top:5px;
+}
+.info-panel p{
+    font-size:14px;
+    color: #ACACAC;
+    margin-top:-5px;
+    font-weight:200;
+}
+
+.kategori{
+    background-color: rgb(76, 68, 167);
+    height: 108rem;
+    margin-top: 120px;
+    position: absolute;
+    
+}
+.kategori p span{
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight:200;
+    margin-left: 120px;
+    
+    
+}
+.card1{
+   margin: 10px auto;
+   
+    background-color: white;
+}
+
+.card2{
+    margin: 10px auto;
+    background-color: white;
+}
+
+.card3{
+    margin: 10px auto;
+    background-color: white;
+}
+
+
+.tutorial h3{
+    margin: 50px auto;
+}
+
+
+/* utitlity */
+.tombol{
+    text-transform:uppercase;
+    border-radius:40px;
+}
+/* akhir utility */
+
+/* working space */
+.workingspace{
+    margin-top:120px;
+    text-align :center;
+}
+.workingspace h3{
+    font-size:52px;
+    font-weight:200;
+    text-transform:uppercase;
+    margin-top:30px;
+}
+.workingspace h3 span{
+    font-weight :500;
+}
+.workingspace p{
+    font-size:18px;
+    color : #ACACAC;
+    font-weight:200;
+    margin-top:20px;
+}
+
+/* Testimonial */
+.testimonial{
+    margin-top:100px;
+
+}
+.testimonial h5{
+    text-align:center;
+    font-weight:200;
+    font-style:italic;
+    font-size:24px;
+}
+.testimonial h6{
+    text-align:center;
+}
+
+.tik{
+    margin: 50px auto;
+    overflow-x: auto;
+    background-color: rgb(238, 238, 238);
+    font-family:Viga;
+}
+.tik::-webkit-scrollbar{
+    width: 0;
+}
+
+.tik ul{
+    display: flex;     
+}
+.tik-judul p{
+    font-family:Viga;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-top: 20px;
+    
+}
+.figure img{
+    width:85px;
+    margin-top:20px;
+    
+}
+
+.footer{
+    background-color: rgb(21, 64, 106);
+}
+.foot{
+    color: white;
+    margin: auto;
+}
+
+
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .navket{
+        margin-bottom: 30px;
+        font-size: 17px;
+    }
+    .bgcolor.scrolled{
+        background-color: rgb(33, 136, 56);
+    }
+    .nav-category{
+        margin-left: 50px;
+    }
+    .nav-x{
+        margin-left: 50px;
+    }
+    .navbar{
+        top: 0;
+        height: 50px;
+        text-align: center;
+        background-color: rgb(9, 54, 122);
+    }
+    .navbar-item, .nav-link{
+        color: white !important;
+        text-shadow:1px 1px 1px rgba(0,0,0, 0.7);
+    }
+    .nav-link{
+        text-transform:uppercase;
+        margin-right:30px;
+    }
+    .nav-link:hover::after{
+        content:'';
+        display:block;
+        border-bottom : 3px solid #ADFF2F;
+        width:20%;
+        margin:auto;
+        padding-bottom:5px;
+        margin-bottom :-8px;
+    }
+    .jumbotron{
+        margin-top:-75px;
+        height:640px;
+    }
+    .jumbotron .display-4{
+        font-size:62px;
+    }
+    .workingspace{
+        
+        text-align :left;
+    }
+    .testimonial h5{
+        font-size:32px;
+    }
+    .kategori{
+        background-color: rgb(76, 68, 167);
+        height: 500px;
+        margin-top: 120px;
+        position: sticky;
+        
+    
+   }
+
+    .kategori p span{
+        font-size: 40px;
+        color: #FFFFFF;
+        font-weight:200;
+        margin-left: 500px;
+    }
+    .card1{
+        margin-left: 40px;
+    }
+    .card2{
+        margin-left: 40px;
+    }
+    .card3{
+        margin-left: 40px;
+    }
+
+    .card4{
+        margin-top: 30px;
+        margin-left: 140px;
+    }
+    .card5{
+        margin-top: 30px;
+        margin-left: 200px;
+    }
+    .card6{
+        margin-top: 30px;
+        margin-left: 270px;
+    }
+    
+    .tutorial h3{
+        margin: 50px auto;
+    }
+
+    .card-body{
+        margin-left: 10px;
+    }
+
+    .tik{
+        margin: 50px auto;
+        background-color: rgb(238, 238, 238);
+        
+    }
+
+    .tik-kategori{
+        margin-right: 50px;
+    }
+    .tik-judul p{
+        font-family:Viga;
+        font-size: 20px;
+        margin-left: 450px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .tik ul{
+        display: flex;     
+    }
+
+    .footer{
+        height: 200px;
+        width: 100%;
+        margin-top: 50px;
+        background-color: rgb(21, 64, 106);
+    }
+
+    .foot{
+        color: white;
+        margin: 20px auto;
+    }
+    .foot1{
+        color: white;
+        margin: auto;
+    }
+
+}
+/* akhir Dekstop Web Programming */
+
